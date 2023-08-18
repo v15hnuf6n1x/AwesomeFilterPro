@@ -55,11 +55,11 @@
             "required": false
         },
         "DATABASE_URI": {
-            "description": "mongodb+srv://Erogire:erogirelad@cluster1.boyfnr5.mongodb.net/?retryWrites=true&w=majority",
+            "description": "mongodb+srv://joekery:steve@joekery.xolgb7u.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
-            "description": "cluster1",
+            "description": "joekery",
             "required": false
         },
         "COLLECTION_NAME": {
