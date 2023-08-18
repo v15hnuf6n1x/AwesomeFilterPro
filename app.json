@@ -55,7 +55,7 @@
             "required": false
         },
         "DATABASE_URI": {
-            "description": "mongodb+srv://joekery:steve@joekery.xolgb7u.mongodb.net/?retryWrites=true&w=majority",
+            "description": "mongodb+srv://joekery:vinland@joekery.xolgb7u.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
