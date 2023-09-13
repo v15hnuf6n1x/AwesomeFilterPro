@@ -62,7 +62,7 @@ async def give_filter(client, message):
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer("oKda", show_alert=True)
+        return await query.answer("yenna dude", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -199,7 +199,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     "I'ᴍ ɴᴏᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴛᴏ ᴀɴʏ ɢʀᴏᴜᴘꜱ!\nCʜᴇᴄᴋ /connection ᴏʀ ᴄᴏɴɴᴇᴄᴛ ᴛᴏ ᴀɴʏ ɢʀᴏᴜᴘꜱ",
                     quote=True
                 )
-                return await query.answer('♥️ Sᴜᴘᴘᴏʀᴛ TᴀᴍɪʟᴀɴBᴏᴛsZ ♥️')
+                return await query.answer('♥️ Sᴜᴘᴘᴏʀᴛ Mʀ_ᴠ_ʙᴏᴛs ♥️')
 
         elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
             grp_id = query.message.chat.id
@@ -441,9 +441,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         buttons = [[
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇs 🤖', url='https://t.me/Mr_V_bots'),
-            InlineKeyboardButton('💥 ᴍᴏᴠɪᴇs ♥️', url='https://t.me/a1pher
+            InlineKeyboardButton('💥 ᴍᴏᴠɪᴇs ♥️', url='https://t.me/a1pher'
             ],[
-            InlineKeyboardButton('💞 sᴜᴘᴘᴏʀᴛ 💞', url='https://t.me/a1pher_supportz
+            InlineKeyboardButton('💞 sᴜᴘᴘᴏʀᴛ 💞', url='https://t.me/a1pher_supportz'
             InlineKeyboardButton('👩‍💻 ʀᴇᴘᴏ ✨', url='https://t.me/v15hnuf6n1x'),
             ],[
             InlineKeyboardButton('👋 ᴇxᴛʀᴀ ʙᴜᴛᴛᴏɴs 👋', callback_data='about'),
