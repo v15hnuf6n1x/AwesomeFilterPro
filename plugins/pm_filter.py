@@ -479,7 +479,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🙄 ᴏᴡɴᴇʀ 🙄', url='https://t.me/v15hnuf6n1x'),
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇs 🤖', url='https://t.me/Mr_V_bots'),
         ],[
-            InlineKeyboardButton('👩‍💻 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 👩‍💻', url='https://t.me/v15hnuf6n1x' #Please Change your bot username
+            InlineKeyboardButton('👩‍💻 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 👩‍💻', url='https://t.me/v15hnuf6n1x'), #Please Change your bot username
             InlineKeyboardButton('😍 sʜᴀʀᴇ ᴍᴇ 😍', url=f'https://t.me/share/url?url=t.me/{temp.U_NAME}'),
         ],[
             InlineKeyboardButton('🔐 ᴄʟᴏsᴇ 🔐', callback_data='close_data')
