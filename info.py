@@ -17,7 +17,7 @@ API_HASH = environ.get('API_HASH', '8cc762f4873e84a7cf0cbfd66a07244b')
 BOT_TOKEN = environ.get('BOT_TOKEN', '6536175076:AAFgOZBLn5DVfGN50lPN8_udbLeHnGRIVHo')
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
-USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
+USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 PICS = (environ.get('PICS', 'https://graph.org/file/c45b8a24ce7ca1da7da05.jpg','https://graph.org/file/08baa15fbfe512bfa8d66.jpg','https://graph.org/file/188ac1736b9cb7fd5867e.jpg')).split()
 
 # Admins, Channels & Users
@@ -38,7 +38,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001869648454'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Mr_V_bots')
-P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
+P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION","<a href='t.me/a1pher'>😎 A1PHER 😎</a>")
