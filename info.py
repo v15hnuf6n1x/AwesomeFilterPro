@@ -18,7 +18,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '6536175076:AAFgOZBLn5DVfGN50lPN8_udbLeHnGR
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://graph.org/file/188ac1736b9cb7fd5867e.jpg https://graph.org/file/08baa15fbfe512bfa8d66.jpg https://graph.org/file/c45b8a24ce7ca1da7da05.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/c45b8a24ce7ca1da7da05.jpg https://graph.org/file/08baa15fbfe512bfa8d66.jpg https://graph.org/file/188ac1736b9cb7fd5867e.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2048030675').split()]
@@ -41,7 +41,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Mr_V_bots')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", None)
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION","<a href='t.me/a1pher'>😎 A1PHER 😎</a>")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Query: {query}</b> \n‌‌‌‌IMDb Data:\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
